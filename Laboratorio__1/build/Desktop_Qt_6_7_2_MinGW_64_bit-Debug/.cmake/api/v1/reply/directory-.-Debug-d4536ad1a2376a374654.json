@@ -30,9 +30,9 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"untitled.exe"
+				"Laboratorio__1.exe"
 			],
-			"targetId" : "untitled::@6890427a1f51a3e7e1df",
+			"targetId" : "Laboratorio__1::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
 			"type" : "target"
 		}

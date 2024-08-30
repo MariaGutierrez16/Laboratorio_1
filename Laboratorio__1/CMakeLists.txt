@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(untitled LANGUAGES CXX)
+project(Laboratorio__1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(untitled main.cpp)
+add_executable(Laboratorio__1 main.cpp)
 
 include(GNUInstallDirs)
-install(TARGETS untitled
+install(TARGETS Laboratorio__1
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )

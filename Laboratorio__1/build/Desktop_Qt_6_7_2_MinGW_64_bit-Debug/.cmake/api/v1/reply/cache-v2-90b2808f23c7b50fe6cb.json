@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/aleja/Music/Laboratorio_1/untitled/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug"
+			"value" : "c:/Users/aleja/Music/Laboratorio_1/Laboratorio__1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/aleja/Music/Laboratorio_1/untitled/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/aleja/Music/Laboratorio_1/Laboratorio__1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/aleja/Music/Laboratorio_1/untitled"
+			"value" : "C:/Users/aleja/Music/Laboratorio_1/Laboratorio__1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/untitled"
+			"value" : "C:/Program Files (x86)/Laboratorio__1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1051,7 +1051,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/aleja/Music/Laboratorio_1/untitled/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "C:/Users/aleja/Music/Laboratorio_1/Laboratorio__1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1063,7 +1063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled"
+			"value" : "Laboratorio__1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1458,6 +1458,42 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "Laboratorio__1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/aleja/Music/Laboratorio_1/Laboratorio__1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug"
+		},
+		{
+			"name" : "Laboratorio__1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Laboratorio__1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/aleja/Music/Laboratorio_1/Laboratorio__1"
+		},
+		{
 			"name" : "QT_CREATOR_SKIP_PACKAGE_MANAGER_SETUP",
 			"properties" : 
 			[
@@ -1503,43 +1539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files (x86)/untitled"
-		},
-		{
-			"name" : "untitled_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/aleja/Music/Laboratorio_1/untitled/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug"
-		},
-		{
-			"name" : "untitled_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "untitled_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/aleja/Music/Laboratorio_1/untitled"
+			"value" : "C:/Program Files (x86)/Laboratorio__1"
 		}
 	],
 	"kind" : "cache",

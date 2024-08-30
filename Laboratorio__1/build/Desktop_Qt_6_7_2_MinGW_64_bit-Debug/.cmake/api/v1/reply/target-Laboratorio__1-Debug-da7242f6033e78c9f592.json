@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled.exe"
+			"path" : "Laboratorio__1.exe"
 		},
 		{
-			"path" : "untitled.pdb"
+			"path" : "Laboratorio__1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -63,7 +63,7 @@
 			]
 		}
 	],
-	"id" : "untitled::@6890427a1f51a3e7e1df",
+	"id" : "Laboratorio__1::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -75,7 +75,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Program Files (x86)/untitled"
+			"path" : "C:/Program Files (x86)/Laboratorio__1"
 		}
 	},
 	"link" : 
@@ -97,8 +97,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "untitled",
-	"nameOnDisk" : "untitled.exe",
+	"name" : "Laboratorio__1",
+	"nameOnDisk" : "Laboratorio__1.exe",
 	"paths" : 
 	{
 		"build" : ".",

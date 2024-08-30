@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-8ea92a84943d7540efa1.json",
+					"jsonFile" : "directory-.-Debug-d4536ad1a2376a374654.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "untitled",
+					"name" : "Laboratorio__1",
 					"targetIndexes" : 
 					[
 						0
@@ -39,9 +39,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Debug-48fdb359ba712569e3ff.json",
-					"name" : "untitled",
+					"id" : "Laboratorio__1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Laboratorio__1-Debug-da7242f6033e78c9f592.json",
+					"name" : "Laboratorio__1",
 					"projectIndex" : 0
 				}
 			]
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/aleja/Music/Laboratorio_1/untitled/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
-		"source" : "C:/Users/aleja/Music/Laboratorio_1/untitled"
+		"build" : "C:/Users/aleja/Music/Laboratorio_1/Laboratorio__1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/aleja/Music/Laboratorio_1/Laboratorio__1"
 	},
 	"version" : 
 	{
