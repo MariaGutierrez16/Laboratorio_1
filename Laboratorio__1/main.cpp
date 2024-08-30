@@ -16,6 +16,7 @@ int main()
         cout<< "1.Problema 1"<<endl;
         cout<<"2.Problema 2"<<endl;
         cout<<"3.Problema 3"<<endl;
+        cout<<"5.Problema 5"<<endl;
         cout<< "0. Salir"<<endl;
         cin>>opcion;
 
@@ -96,7 +97,38 @@ int main()
 
             break;
         }
+        case 5:{
+            int n;
 
+            cout << "Ingrese un numero impar: ";
+            cin >> n;
+
+            // Imprimir el patrón ascendente con espacio a la izquierda
+            for (int i = 1; i <= n; i += 2) {
+                for (int j = 1; j <= (n - i) / 2; j++) {
+                    cout << " "; // Espacios a la izquierda
+                }
+                for (int j = 1; j <= i; j++) {
+                    cout << "*";
+                }
+                cout << endl;
+
+
+            }
+
+            // Imprimir el patrón descendente con espacio a la izquierda
+            for (int i = n - 2; i >= 1; i -= 2) {
+                for (int j = 1; j <= (n - i) / 2; j++) {
+                    cout << " "; // Espacios a la izquierda
+                }
+                for (int j = 1; j <= i; j++) {
+                    cout << "*";
+                }
+
+                cout << endl;
+
+        }
+        break;
         default:
             if(opcion!=0)
                 cout<<"opcion no valida"<<endl;
@@ -104,50 +136,51 @@ int main()
         }
     }
 }
-
-//funciones
-bool EsVocal(char caracter)
-{
-    if(caracter>=97)
-        caracter-=32;
-
-    if(caracter=='A'|| caracter=='E'|| caracter=='I'
-        || caracter=='O'||caracter=='U')
-        return true;
-    else
-        return false;
 }
-void calcular(int cantdinero, int &b1000, int &b2000, int &b5000, int &b10000,
-              int &b20000, int &b50000, int &m50, int &m100, int &m200, int &m500, int &faltante) {
-    b50000 = cantdinero / 50000;
-    cantdinero %= 50000;
 
-    b20000 = cantdinero / 20000;
-    cantdinero %= 20000;
+    //funciones
+    bool EsVocal(char caracter)
+    {
+        if(caracter>=97)
+            caracter-=32;
 
-    b10000 = cantdinero / 10000;
-    cantdinero %= 10000;
+        if(caracter=='A'|| caracter=='E'|| caracter=='I'
+            || caracter=='O'||caracter=='U')
+            return true;
+        else
+            return false;
+    }
+    void calcular(int cantdinero, int &b1000, int &b2000, int &b5000, int &b10000,
+                  int &b20000, int &b50000, int &m50, int &m100, int &m200, int &m500, int &faltante) {
+        b50000 = cantdinero / 50000;
+        cantdinero %= 50000;
 
-    b5000 = cantdinero / 5000;
-    cantdinero %= 5000;
+        b20000 = cantdinero / 20000;
+        cantdinero %= 20000;
 
-    b2000 = cantdinero / 2000;
-    cantdinero %= 2000;
+        b10000 = cantdinero / 10000;
+        cantdinero %= 10000;
 
-    b1000 = cantdinero / 1000;
-    cantdinero %= 1000;
+        b5000 = cantdinero / 5000;
+        cantdinero %= 5000;
 
-    m500 = cantdinero / 500;
-    cantdinero %= 500;
+        b2000 = cantdinero / 2000;
+        cantdinero %= 2000;
 
-    m200 = cantdinero / 200;
-    cantdinero %= 200;
+        b1000 = cantdinero / 1000;
+        cantdinero %= 1000;
 
-    m100 = cantdinero / 100;
-    cantdinero %= 100;
+        m500 = cantdinero / 500;
+        cantdinero %= 500;
 
-    m50 = cantdinero / 50;
-    cantdinero %= 50;
+        m200 = cantdinero / 200;
+        cantdinero %= 200;
 
-    faltante = cantdinero; // Lo que queda es el faltante
-}
+        m100 = cantdinero / 100;
+        cantdinero %= 100;
+
+        m50 = cantdinero / 50;
+        cantdinero %= 50;
+
+        faltante = cantdinero; // Lo que queda es el faltante
+    }
