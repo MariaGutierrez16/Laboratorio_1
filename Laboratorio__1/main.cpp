@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+int fact(int);
 bool EsVocal(char caracter);
 void calcular(int cantdinero, int &b1000, int &b2000, int &b5000, int &b10000,int &b20000, int &b50000, int &m50, int &m100, int &m200, int &m500, int &faltante);
 
@@ -17,6 +18,7 @@ int main()
         cout<<"2.Problema 2"<<endl;
         cout<<"3.Problema 3"<<endl;
         cout<<"5.Problema 5"<<endl;
+        cout<<"6.Problema 6"<<endl;
         cout<< "0. Salir"<<endl;
         cin>>opcion;
 
@@ -129,6 +131,22 @@ int main()
 
         }
         break;
+
+        case 6:{
+            int s;
+
+            cout<<" Escriba un numero:" <<endl;
+            cin >>s;
+            double e=0;
+            for ( int i=0;i<s;i++){
+                double u=fact(i);
+                e+=1/u;
+
+            }
+
+            cout <<" El valor aproximado de en en base a su numero"<<s<<"es"<<e<<endl;
+        }
+        break;
         default:
             if(opcion!=0)
                 cout<<"opcion no valida"<<endl;
@@ -183,4 +201,15 @@ int main()
         cantdinero %= 50;
 
         faltante = cantdinero; // Lo que queda es el faltante
+    }
+
+    int fact (int f){
+        int factorial = f;
+        if (factorial >1){
+            factorial=f*fact(f-1);
+            return factorial;
+        }
+        else {
+            return 1;
+        }
     }
