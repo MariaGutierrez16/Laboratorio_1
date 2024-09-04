@@ -19,6 +19,7 @@ int main()
         cout<<"3.Problema 3"<<endl;
         cout<<"5.Problema 5"<<endl;
         cout<<"6.Problema 6"<<endl;
+        cout<<"7.Problema 7"<<endl;
         cout<< "0. Salir"<<endl;
         cin>>opcion;
 
@@ -145,6 +146,28 @@ int main()
             }
 
             cout <<" El valor aproximado de en en base a su numero"<<s<<"es"<<e<<endl;
+        }
+        break;
+
+        case 7:{
+            int n;
+
+            cout<<"Ingrese un numero n: "<<endl;
+            cin>>n;
+
+            int a = 1, b=1,sum=0;
+
+            while (b<n){
+                if (b%2==0){
+                    sum+=b;
+                }
+                int next = a + b ;
+                a = b;
+                b = next;
+            }
+
+            cout<<"el resultado de la suma es " << sum << endl;
+
         }
         break;
         default:
